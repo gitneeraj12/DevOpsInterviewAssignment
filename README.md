@@ -19,4 +19,3 @@ kubectl get services
 
 Accessing the Application using NodePort
 curl http://<NodeIP>:<NodePort>
-
