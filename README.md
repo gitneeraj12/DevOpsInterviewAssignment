@@ -5,8 +5,8 @@
 This project contains Kubernetes manifests to deploy an NGINX web server using a Deployment and a Service(NodePort)
 
 Yaml Contents
-- `nginx-deployment.yaml`: Deployment with 2 replicas of the NGINX container
-- `nginx-service.yaml`: Exposes the Deployment as a Service (NodePort by default)
+- `nginx-deployment.yaml`
+- `nginx-service.yaml`
 
 Apply the manifests
 kubectl apply -f nginx-deployment.yaml
